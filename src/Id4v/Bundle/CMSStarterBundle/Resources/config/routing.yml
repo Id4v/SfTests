@@ -1,0 +1,13 @@
+# app/config/routing.yml
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin
+
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
+id4v_cms_starter_homepage:
+    path:     /id
+    defaults: { _controller: Id4vCMSStarterBundle:Default:index }

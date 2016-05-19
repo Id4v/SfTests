@@ -1,0 +1,3 @@
+[submodule "src/Id4v/Bundle/MenuBundle"]
+	path = src/Id4v/Bundle/MenuBundle
+	url = git@github.com:Id4v/MenuBundle.git
